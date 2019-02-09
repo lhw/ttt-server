@@ -8,7 +8,6 @@ docker run --name ttt -v ttt-data:/app -v ttt-config:/cfg -v ttt-content:/conten
 ```
 
 <br>
-
 List of enviromental variables you should add:
 
 | ENV | Description | Default value |
@@ -16,7 +15,6 @@ List of enviromental variables you should add:
 | NAME | Name of the server. | DockerServer |
 | STARTMAP | Map on which the server will start the first round. | gm_construct |
 | WORKSHOP | Steam workshop collection id. Example: 1644491708 for https://steamcommunity.com/sharedfiles/filedetails/?id=1644491708. | 0 |
-
 
 <br>
 List of enviromental variables you can also add:
@@ -52,7 +50,7 @@ Description of the docker volumes for this image.
 | Volume name | Container mount | Description |
 | --- | --- | --- |
 | ttt-data | /app | All files for garrysmod. Do not change anything there. |
-| ttt-config | /cfg | Put all your config files for garrysmod into here. All files are going to be copied from here into the /app/garrysmod folder. For example create a file with the path lua/autorun/server/admin_functions.lua on this volume. If you want your own server.cfg put it here too.
+| ttt-config | /cfg | Put all your config files for garrysmod into here. All files are going to be copied from here into the /app/garrysmod folder. For example create a file with the path lua/autorun/server/admin_functions.lua on this volume. If you want your own server.cfg put it in cfg/server.cfg on this volume.
 | ttt-content | /content | Path of Team Fortress 2 and Counter Strike: Source files which are for example necessary for many TTT maps. Do not change anything here. |
 
 ## Get our TTT server
