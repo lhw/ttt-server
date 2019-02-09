@@ -2,7 +2,7 @@
 
 ## Run the server
 ```
-docker run --name ttt -v ttt-data:/app -v ttt-config:/cfg -v ttt-content:/content -p 27015:27015/udp -d -t nasourso/ttt:latest
+docker run --name ttt -v ttt-data:/app -v ttt-config:/cfg -v ttt-content:/content -p 27015:27015/udp -d -t nasourso/ttt-server:latest
 ```
 
 <br>
