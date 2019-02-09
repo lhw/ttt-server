@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build -t nasourso/ttt .
+docker build -t nasourso/ttt-server .
