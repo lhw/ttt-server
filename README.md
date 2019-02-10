@@ -55,7 +55,7 @@ Description of the docker volumes for this image.
 
 ## Get our TTT server
 ```
-NOT AVAILABLE AT THE MOMENT
+wget -N https://nasourso.com/download/ttt/myserver.sh && sh myserver.sh
 ```
 ## Build information
 
