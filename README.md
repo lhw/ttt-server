@@ -56,9 +56,3 @@ Description of the docker volumes for this image.
 ## Get our TTT server
 ```
 wget -N https://nasourso.com/download/ttt/myserver.sh && sh myserver.sh
-```
-## Build information
-
-If you want to build this image yourself git clone this repository, go into src and build the Dockerfile. Due to the fact, that garrysmod, etc are updated every time on the volumes a rebuild should not be necessary.
-
-This image is build on https://github.com/Hackebein/docker-steamcmd for steamcmd.

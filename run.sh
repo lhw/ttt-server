@@ -147,4 +147,4 @@ echo ""
 echo "Starting server on port $PORT..."
 echo ""
 
-screen -S server ./srcds_run  -console -port "$PORT" -maxplayers $MAXPLAYERS -game garrysmod +gamemode terrortown +map $STARTMAP +host_workshop_collection $WORKSHOP
+exec ./srcds_run -- -console -port "$PORT" -maxplayers $MAXPLAYERS -game garrysmod +gamemode terrortown +map $STARTMAP +host_workshop_collection $WORKSHOP
